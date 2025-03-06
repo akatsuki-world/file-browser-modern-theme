@@ -818,7 +818,7 @@ table tr {
     transform: translate(-50%, -50%);
     max-width: 30em;
     width: 90%;
-    background-color: var(--surfaceSecondary);
+    background-color: #5B0002;
     padding: 2em;
     border-radius: var(--radius);
 }
