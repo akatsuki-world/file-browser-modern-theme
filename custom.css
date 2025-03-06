@@ -5,8 +5,9 @@
 }
 
 #login form h1 {
-    margin: 0.8em 0 0.8em;
-    font-weight: 400;
+    width: 100%;
+    color: white;
+    font-weight: 600;
 }
 
 /** Posibility of other image in login screen **/
@@ -19,14 +20,14 @@
 :root {
     --background: #5B0002;
     --surfacePrimary: #1f2330;
-    --surfaceSecondary: #292d3e;
+    --surfaceSecondary: #5B0002;
     --surfaceHover: #383d51;
     --surfaceSelect: #4c5374;
     --divider: #1f2330;
     --icon: #8eb2ff;
-    --textPrimary: #dee0ee;
-    --textSecondary: #929ac9;
-    --radius: 0.7rem;
+    --textPrimary: #000000;
+    --textSecondary: #cccccc;
+    --radius: 10px;
     --blue: #B9141A; /* updated main color */
     --dark-blue: rgba(56, 71, 102, 0.5);
     --red: #ef5350;
@@ -815,7 +816,7 @@ table tr {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    max-width: 20em;
+    max-width: 30em;
     width: 90%;
     background-color: var(--surfaceSecondary);
     padding: 2em;
@@ -823,10 +824,10 @@ table tr {
 }
 
 #login h1 {
+    width: 100%;
+    margin: 0em 0 2em;
     text-align: center;
-    font-size: 1.5em;
-    margin: 0.4em 0 0.67em;
-    word-spacing: 100vw;
+    font-size: 2em;
 }
 
 #login form .button {
