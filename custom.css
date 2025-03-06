@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:200,300,400,500,600,700,800,900&display=swap');
 
 #login form {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 #login form h1 {
@@ -10,13 +10,14 @@
 }
 
 /** Posibility of other image in login screen **/
-/* #login form img {
-    content: url("./img/isotipo.svg");
-    width: 10em;
+#login form img {
+    content: url("./img/logo.svg");
+    width: 15em; /* Make the logo a bit bigger */
     height: auto;
-} */
+}
+
 :root {
-    --background: #1f2330;
+    --background: #5B0002;
     --surfacePrimary: #1f2330;
     --surfaceSecondary: #292d3e;
     --surfaceHover: #383d51;
@@ -26,7 +27,7 @@
     --textPrimary: #dee0ee;
     --textSecondary: #929ac9;
     --radius: 0.7rem;
-    --blue: #8eb2ff;
+    --blue: #B9141A; /* updated main color */
     --dark-blue: rgba(56, 71, 102, 0.5);
     --red: #ef5350;
     --dark-red: rgba(239, 83, 80, 0.15);
