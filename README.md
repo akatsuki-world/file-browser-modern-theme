@@ -1,5 +1,5 @@
 <h1 align="center">
-  Modern
+  Modern Theme
 </h1>
 <p align="center">
     Alternative dark theme for https://github.com/filebrowser/filebrowser/
